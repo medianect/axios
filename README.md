@@ -1,13 +1,15 @@
 # axios
 
-This is a mirror of [axios](https://www.npmjs.com/package/axios), bundled and exposed as ES module.
+This is a updated fork of `@bundled-es-modules/axios`, itself a mirror of
+[axios](https://www.npmjs.com/package/axios), bundled and exposed as ES module.
 
 ## Install
 
 ```
-npm install @bundled-es-modules/axios
-bower install bundled-es-modules/axios
+npm install @medianect/axios-bundled-as-es-module
 ```
+
+For bower please for now refer to `@bundled-es-modules` version.
 
 ## Use
 
@@ -21,4 +23,4 @@ bower install bundled-es-modules/axios
 </script>
 ```
 
-Make sure you added `@bundled-es-modules` scope to the path if used via npm.
+Make sure you added `@medianect` scope to the path if used via npm.
