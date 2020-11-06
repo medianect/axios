@@ -6,7 +6,7 @@
   "contributors": [
     "Mikhail Bashkirov <bashmish@gmail.com>",
     "Xvdfe <xvdfe@medianect.com>"
-  },
+  ],
   "main": "index.js",
   "publishConfig": {
     "access": "public"
