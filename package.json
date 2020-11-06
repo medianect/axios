@@ -1,15 +1,19 @@
 {
-  "name": "@bundled-es-modules/axios",
+  "name": "@medianect/axios-bundled-as-es-module",
   "version": "0.21.0",
   "description": "mirror of axios, bundled and exposed as ES module",
   "author": "Mikhail Bashkirov <bashmish@gmail.com>",
+  "contributors": [
+    "Mikhail Bashkirov <bashmish@gmail.com>",
+    "Xvdfe <xvdfe@medianect.com>"
+  },
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bundled-es-modules/axios.git"
+    "url": "git://github.com/medianect/axios.git"
   },
   "license": "Apache-2.0",
   "devDependencies": {
@@ -19,5 +23,17 @@
   },
   "scripts": {
     "build": "rollup -c ./rollup.config.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/medianect/axios/issues"
+  },
+  "homepage": "https://github.com/medianect/axios#readme",
+  "dependencies": {},
+  "keywords": [
+    "axios",
+    "es",
+    "module",
+    "http",
+    "client"
+  ]
 }
